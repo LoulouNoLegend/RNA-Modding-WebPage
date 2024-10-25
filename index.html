@@ -5,17 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rooftops & Alleys Modding Community</title>
   <link rel="stylesheet" href="css/index.css">
+  <script src="js/include.js"></script>
 </head>
+
+<header>
+  <link rel="stylesheet" href="../css/header.css">
+  <nav class="navbar">
+      <div class="logo">
+          <a href="#">Rooftops & Alleys Modding</a>
+      </div>
+      <ul class="nav-links">
+          <li><a href="../index.php">Home</a></li>
+          <li><a href="mods.php">Mods</a></li>
+          <li><a href="community.php">Community</a></li>
+          <li><a href="about.php">About</a></li>
+      </ul>
+      <button class="menu-toggle">☰</button>
+  </nav>
+</header>
+
 <body>
-
-  <!-- Navigation Bar -->
-  <?php include_once("include/header.php") ?>
-
+  
   <!-- Hero Section -->
   <section class="hero">
     <h1>Unofficial RNA Modding Community Website</h1>
     <p>The website is still in the work, but you can check the documentation!</p>
-    <a href="https://docs.rna-modding.com/" class="cta-button">See the documentation</a>
+    <a href="https://docs.rna-modding.com/" class="cta-button">Documentation</a>
   </section>
 
   <!-- Content Section -->
@@ -37,9 +52,11 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <?php include_once("include/footer.php") ?>
-
   <script src="js/index.js"></script>
 </body>
+
+<footer>
+  <p>© 2024 Unofficial Rooftops & Alleys Modding Community - Website made by LoulouNoLegend</p>
+</footer>
+
 </html>
