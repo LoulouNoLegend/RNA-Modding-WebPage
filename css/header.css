@@ -1,0 +1,92 @@
+/* header.css */
+header {
+    background: #222;
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+header.shrink {
+    padding: 10px 0; /* Reduced padding when shrunk */
+}
+
+header.shrink .logo a {
+    font-size: 1.5rem; /* Adjusted size for logo */
+}
+
+header.shrink .nav-links a {
+    font-size: 1rem; /* Adjusted size for nav links */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center content in the navbar */
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    flex-grow: 1; /* Allow the logo to take up available space */
+    text-align: left; /* Align logo to the left */
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff9b00; /* Orange highlight for logo */
+    transition: font-size 0.3s ease;
+}
+
+header.shrink .logo a {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto; /* Ensures links stay next to the logo */
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffa100; /* Orange hover effect */
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

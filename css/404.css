@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .error-container {
+    padding: 20px;
+  }
+  
+  .error-container h1 {
+    font-size: 6rem; /* Large font size for the error code */
+    color: #ff6600; /* Orange color for the error code */
+  }
+  
+  .error-container h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .error-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #ffa100 url("../assets/img/button-preset-normal.png");
+    width: 225px;
+    height: 55px;
+    color: #fff;
+    border-radius: 8px;
+    border: 0.2rem solid #ffa100;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    align-content: center;
+  }
+
+  .cta-button:hover {
+    background: #e65c00 url("../assets/img/button-preset-hovered.png");
+  }
+
+  .cta-button:active {
+    background: #e65c00 url("../assets/img/button-preset-pressed.png");
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 10px; /* Position footer at the bottom */
+    width: 100%;
+    text-align: center;
+    color: #fff; /* White text for footer */
+  }
+  

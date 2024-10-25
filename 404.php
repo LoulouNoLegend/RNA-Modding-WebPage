@@ -6,6 +6,7 @@
   <title>404 - Page Not Found</title>
   <link rel="stylesheet" href="css/404.css">
 </head>
+
 <body>
 
   <div class="error-container">
@@ -14,10 +15,6 @@
     <p>It seems we can't find the page you're looking for.</p>
     <a href="index.php" class="cta-button">Go Back Home</a>
   </div>
-
-  <footer>
-    <p>© 2024 Rooftops & Alleys Modding Community. All rights reserved.</p>
-  </footer>
 
 </body>
 </html>

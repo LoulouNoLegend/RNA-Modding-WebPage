@@ -9,51 +9,36 @@
 <body>
 
   <!-- Navigation Bar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <a href="#">Rooftops & Alleys Modding</a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Mods</a></li>
-        <li><a href="#">Community</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-      <button class="menu-toggle">☰</button>
-    </nav>
-  </header>
+  <?php include_once("include/header.php") ?>
 
   <!-- Hero Section -->
   <section class="hero">
-    <h1>Welcome to Rooftops & Alleys Modding Community</h1>
-    <p>Explore, Create, and Share your Mods</p>
-    <a href="https://docs.rna-modding.com/" class="cta-button">Get Started</a>
+    <h1>Unofficial RNA Modding Community Website</h1>
+    <p>The website is still in the work, but you can check the documentation!</p>
+    <a href="https://docs.rna-modding.com/" class="cta-button">See the documentation</a>
   </section>
 
   <!-- Content Section -->
   <section id="mods" class="content-section">
-    <h2>Latest Mods</h2>
+    <h2>Section in the work</h2>
     <div class="mod-gallery">
       <div class="mod-item">
-        <h3>Mod 1</h3>
-        <p>Description of Mod 1</p>
+        <h3> </h3>
+        <p> </p>
       </div>
       <div class="mod-item">
-        <h3>Mod 2</h3>
-        <p>Description of Mod 2</p>
+        <h3> </h3>
+        <p> </p>
       </div>
       <div class="mod-item">
-        <h3>Mod 3</h3>
-        <p>Description of Mod 3</p>
+        <h3> </h3>
+        <p> </p>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <p>© 2024 Rooftops & Alleys Modding Community. All rights reserved.</p>
-  </footer>
+  <?php include_once("include/footer.php") ?>
 
   <script src="js/index.js"></script>
 </body>
